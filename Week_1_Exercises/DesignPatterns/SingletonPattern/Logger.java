@@ -2,7 +2,6 @@ public class Logger {
     private static volatile Logger instance;
 
     private Logger() {
-        // private constructor to prevent instantiation
     }
 
     public static Logger getInstance() {
