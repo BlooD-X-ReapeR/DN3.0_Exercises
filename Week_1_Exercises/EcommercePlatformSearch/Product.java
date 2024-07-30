@@ -3,14 +3,12 @@ public class Product {
     private String productName;
     private String category;
 
-    // Constructor
     public Product(String productId, String productName, String category) {
         this.productId = productId;
         this.productName = productName;
         this.category = category;
     }
 
-    // Getters and Setters
     public String getProductId() { return productId; }
     public void setProductId(String productId) { this.productId = productId; }
 
