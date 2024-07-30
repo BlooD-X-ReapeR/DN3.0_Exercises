@@ -11,7 +11,6 @@ public class Main {
         System.out.println("Tasks:");
         taskManager.traverseTasks();
 
-        // Example of searching and deleting tasks
         System.out.println("Searching for Task 1:");
         Task foundTask = taskManager.searchTask("1");
         if (foundTask != null) {

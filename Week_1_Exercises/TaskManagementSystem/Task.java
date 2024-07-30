@@ -3,14 +3,12 @@ public class Task {
     private String taskName;
     private String status;
 
-    // Constructor
     public Task(String taskId, String taskName, String status) {
         this.taskId = taskId;
         this.taskName = taskName;
         this.status = status;
     }
 
-    // Getters and Setters
     public String getTaskId() { return taskId; }
     public void setTaskId(String taskId) { this.taskId = taskId; }
 
